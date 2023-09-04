@@ -17,6 +17,10 @@ Web application scraper with symfony
     ```
 
     ```bash
+    docker-compose run --rm application npm install
+    ```
+
+    ```bash
     docker-compose run --rm application cp .env.example .env
     ```
     ```bash
